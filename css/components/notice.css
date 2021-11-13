@@ -1,0 +1,22 @@
+.notice-box {
+    position: relative;
+    left: 150px;
+    width: 50%;
+    background: fffef7;
+}
+.notice {
+    position: relative;
+    left: 40px;
+    top: 80px;
+    font-size: 24px;
+    border-bottom: 1px solid black;
+}
+.notice-img {
+    position: relative;
+    left: 140px;
+    top: 56px;
+    font-size: 24px;
+}
+.notice-box:hover {
+    color: brown;
+}

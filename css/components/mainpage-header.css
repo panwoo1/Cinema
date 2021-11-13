@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+
+.mainpage-image {
+    justify-content: space-between;
+    border-radius: 50%;
+    width: 100px;
+}
+.mainpage-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    height: 80px;
+    margin-top: 0px;
+    position: fixed;
+    z-index: 1;
+    background: white;
+}
+.mainpage-title {
+    display: flex;
+}
+.mainpage-title span {
+    font-size: 18px;
+    margin-left: 25px;
+}
+.cinema-name1 {
+    position: relative;
+    top: 30px;
+    left: 20px;
+    font-family: "Jua", sans-serif;
+    font-size: 24px;
+    color: #964b00;
+}
+.cinema-name2 {
+    position: relative;
+    top: 60px;
+    right: 50px;
+    font-family: "Jua", sans-serif;
+    font-size: 24px;
+    color: #964b00;
+}
+.menu-bar:hover {
+    color: #760c0c;
+}
+.median-box {
+    display: flex;
+    justify-content: space-between;
+}

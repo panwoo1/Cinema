@@ -1,0 +1,26 @@
+th {
+    height: 40px;
+    width: 70px;
+    background: gray;
+    color: black;
+    padding: 1px;
+}
+td {
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    color: black;
+    background-color: #fffdc5;
+}
+#calendar-box {
+    position: relative;
+    display: flex;
+    top: 70px;
+}
+#yearMonth {
+    font-size: 24px;
+    padding: 5px;
+    width: 250px;
+    color: black;
+    background: #760c0c;
+}

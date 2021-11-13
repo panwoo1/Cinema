@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>체리를 사랑한 다람쥐</title>
+</head>
+<body>
+
+    <div class="mainpage-header">
+        <div class="mainpage-title">
+            <a href="main.html"><img src="media/cherry chipmunk.jpg" class="mainpage-image"></a>
+            <div class="cinema-name1"><a href="main.html">체리를 사랑한</a></div>
+            <div class="cinema-name2"><a href="main.html">다람쥐</a></div>
+        </div>
+        <div class="mainpage-title">
+            <span><a class="menu-bar" href="cinema.html">영화관</a></span>
+            <span><a class="menu-bar" href="info.html">이용안내</a></span>
+            <span><a class="menu-bar" href="intro.html">극장소개</a></span>
+            <span><a class="menu-bar" href="ticket.html">예매</a></span>
+        </div>
+    </div>
+
+    <div class="main-mid">
+        <div class="cinema-image-box">
+            <button class="btn1" onclick="changeImg(0)"><i class="fas fa-arrow-left"></i></button>
+            <img class="cinema-img" src="media/img01.jpg">
+            <button class="btn2" onclick="changeImg(1)"><i class="fas fa-arrow-right"></i></button>
+        </div>
+
+        <div class="movie-box1">
+            <div><a href=""><img class="movie" src="media/듄.jpg"></a></div>
+            <div class="movie-link"><a href="">듄</a></div>
+        </div>
+
+        <div class="movie-box2">
+            <div><a href=""><img class="movie" src="media/이터널스.jpg"></a></div>
+            <div class="movie-link"><a href="">이터널스</a></div>
+        </div>
+
+        <div class="movie-box3">
+            <div><a href=""><img class="movie" src="media/아네트.jpg"></a></div>
+            <div class="movie-link"><a href="">아네트</a></div>
+        </div>
+    </div>
+
+    <div class="last-box">
+        <div id="calendar-box">
+            <table id="calendar">
+                <thead>
+                <tr><th colspan="7" id="yearMonth"></th></tr>
+                <tr>
+                    <th>일</th>
+                    <th>월</th>
+                    <th>화</th>
+                    <th>수</th>
+                    <th>목</th>
+                    <th>금</th>
+                    <th>토</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>    
+        </div>
+
+
+        <div class="notice-box">
+            <div class="notice"><a href="info.html">공지사항</a></div>
+            <div class="notice-img"><a><i class="fas fa-chevron-right"></i></a></div>
+    
+        </div>
+          
+    </div>
+
+    <footer></footer>
+    
+    
+</body>     
+    <script src="https://kit.fontawesome.com/cb64caab21.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/cinema-img.js"></script>
+    <script type="text/javascript" src="js/calendar.js"></script>
+</html>

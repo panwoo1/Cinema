@@ -1,13 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 @import "reset.css";
+@import "components/mainpage-header.css";
+@import "components/mainpage-mid.css";
+@import "components/mainpage-lastbox.css";
+@import "components/calendar.css";
+@import "components/notice.css";
+@import "screen/intro.css";
+@import "screen/cinema.css";
+@import "screen/info.css";
 
-.mainpage-header {
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-    padding: 25px;
-    margin-top: 25px;
+body {
+    color: #2e363e;
+    font-family: "Open Sans", sans-serif;
+    background: #e5e5e5;
+    overflow-x: hidden;
 }
-.mainpage-title span {
-    font-size: 16px;
-    margin-left: 25px;
+footer {
+    background: #760c0c;
+    position: relative;
+    height: 100px;
+    left: 0;
+    top: 220px;
+    width: 100%;
 }

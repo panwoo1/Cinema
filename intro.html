@@ -2,11 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>소개</title>
 </head>
 <body>
-    
+    <div class="mainpage-header">
+        <div class="mainpage-title">
+            <a href="main.html"><img src="media/cherry chipmunk.jpg" class="mainpage-image"></a>
+            <div class="cinema-name1"><a href="main.html">체리를 사랑한</a></div>
+            <div class="cinema-name2"><a href="main.html">다람쥐</a></div>
+        </div>
+        <div class="mainpage-title">
+            <span><a class="menu-bar" href="cinema.html">영화관</a></span>
+            <span><a class="menu-bar" href="info.html">이용안내</a></span>
+            <span><a class="menu-bar" href="intro.html">극장소개</a></span>
+            <span><a class="menu-bar" href="ticket.html">예매</a></span>
+        </div>
+    </div>
+
+    <div class="intro-mid">
+        <div class="intro-image-box">
+            <button class="intro-btn1" onclick="changeImg(0)"><i class="fas fa-arrow-left"></i></button>
+            <img class="cinema-img" src="media/img01.jpg">
+            <button class="intro-btn2" onclick="changeImg(1)"><i class="fas fa-arrow-right"></i></button>
+        </div>
+
+        <div class="cinema-intro-box">
+            <div class="intro-title">소개</div><br><br><br>
+            <div class="cinema-name">체리를 사랑한 다람쥐</div><br><br>
+            <div class="cinema-intro">
+                체리를 사랑한 다람쥐는, 지역 문화콘텐츠 제공을 위해 설립한 문화공간입니다.<br>
+                지역 문화 발전을 위해 최신 영화를 제공하고 있으며 영화 관람에 있어 양질의 환경을 제공하고,<br>
+                영화 뿐만 아니라 다양한 콘텐츠를 제공하고자 시설 확장에 힘쓰고 있습니다. 
+            </div>
+        </div>
+    </div>
+    <footer></footer>
 </body>
+    <script src="https://kit.fontawesome.com/cb64caab21.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/cinema-img.js"></script>
 </html>

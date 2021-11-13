@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+
+.intro-mid {
+    display: flex;
+    position: relative;
+    top: 150px;
+}
+
+.intro-image-box {
+    position: relative;
+    left: 100px;
+}
+
+.cinema-img {
+    width: 600px;
+}
+
+.intro-btn1 {
+    position: absolute;
+    top: 170px;
+    border: none;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+}
+
+.intro-btn2 {
+    position: absolute;
+    top: 170px;
+    left: 560px;
+    border: none;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+}
+.intro-title {
+    font-size: 50px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.cinema-name {
+    font-family: "Jua", sans-serif;
+    font-size: 30px;
+    color: #760c0c;
+}
+.cinema-intro-box {
+    position: relative;
+    top: 30px;
+    left: 150px;
+}
+
+.cinema-intro {
+    left: 80px;
+    font-family: "Jua", sans-serif;
+    font-size: 18px;
+}

@@ -1,0 +1,151 @@
+.movie-intro-box {
+    position: inherit;
+}
+
+.movie-intro-1 {
+    position: relative;
+    width: 600px;
+    top: 200px;
+    left: 100px;
+    border-right: 1px solid black;
+}
+.movie-intro-2 {
+    position: relative;
+    width: 600px;
+    top: 300px;
+    left: 100px;
+    border-right: 1px solid black;
+}
+.movie-intro-3 {
+    position: relative;
+    width: 600px;
+    top: 400px;
+    left: 100px;
+    border-right: 1px solid black;
+}
+.movie-intro-4 {
+    position: relative;
+    width: 600px;
+    top: 400px;
+    left: 100px;
+    border-right: 1px solid black;
+}
+.movie-intro-5 {
+    position: relative;
+    width: 600px;
+    top: 400px;
+    left: 100px;
+    border-right: 1px solid black;
+}
+.movie-intro-6 {
+    position: relative;
+    width: 600px;
+    top: 400px;
+    left: 100px;
+    border-right: 1px solid black;
+}
+.movie-img {
+    width: 200px;
+}
+.movie-name {
+    position: relative;
+    bottom: 250px;
+    left: 300px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.d {
+    position: relative;
+    bottom: 200px;
+    left: 220px;
+    font-size: 15px;
+}
+.m {
+    font-weight: bold;
+}
+.movie-ex {
+    position: relative;
+    bottom: 300px;
+    left: 700px;
+    padding: 3px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.ticekting {
+    position: relative;
+    bottom: 50px;
+    color: blue;
+    background: rgba(197, 188, 188, 0.342);
+    padding: 10px;
+    border-radius: 25%;
+}
+
+#age1 {
+    position: relative;
+    bottom: 225px;
+    left: 150px;
+    background: orange;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+#age2 {
+    position: relative;
+    bottom: 225px;
+    left: 200px;
+    background: skyblue;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+#age3 {
+    position: relative;
+    bottom: 228px;
+    left: 230px;
+    background: skyblue;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+#age4 {
+    position: relative;
+    bottom: 228px;
+    left: 170px;
+    background: red;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+#age5 {
+    position: relative;
+    bottom: 228px;
+    left: 260px;
+    background: skyblue;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+#age6 {
+    position: relative;
+    bottom: 228px;
+    left: 200px;
+    background: orange;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+#cinema-footer {
+    top: 500px;
+}
